@@ -3,8 +3,7 @@
 pin "application"
 
 pin "station", to: "station.js"
-
-
+pin "leaflet", to: "https://cdn.skypack.dev/leaflet"
 
 pin "@hotwired/turbo-rails", to: "turbo.min.js"
 pin "@hotwired/stimulus", to: "stimulus.min.js"

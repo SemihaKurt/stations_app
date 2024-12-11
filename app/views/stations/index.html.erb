@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Şarj İstasyonları</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+  <h1>Elektrikli Araç Şarj İstasyonları</h1>
+  <div id="map"></div>
+
+  <script>
+   var stations = <%= raw @stations.to_json %>;
+  </script>
+
+</body>
+</html>
+
